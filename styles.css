@@ -1,3 +1,5 @@
+/* ---------- Main components start ---------- */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,3 +25,19 @@ section {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
 }
+/* ---------- Main components finish ---------- */
+
+/* ---------- Header components start ---------- */
+/* ---------- Header components finish ---------- */
+
+/* ---------- First section components start ---------- */
+/* ---------- First section components finish ---------- */
+
+/* ---------- Second section components start ---------- */
+/* ---------- Second section components finish ---------- */
+
+/* ---------- Third section components start ---------- */
+/* ---------- Third section components finish ---------- */
+
+/* ---------- Footer components start ---------- */
+/* ---------- Footer components finish ---------- */
