@@ -25,19 +25,111 @@ section {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
 }
+
 /* ---------- Main components finish ---------- */
 
 /* ---------- Header components start ---------- */
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 48px;
+}
+
+.header-text-box {
+  align-self: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+.header-text {
+  margin-bottom: 24px;
+}
+
+img {
+  width: 100%;
+}
+
 /* ---------- Header components finish ---------- */
 
 /* ---------- First section components start ---------- */
+
+.featurees-icon {
+}
+
+.featurees-title {
+  margin-bottom: 16px;
+}
+
+.features-text {
+}
+
 /* ---------- First section components finish ---------- */
 
 /* ---------- Second section components start ---------- */
+
+.testimonial-section {
+}
+
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.testimonial-box h2 {
+  margin-bottom: 24px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
 /* ---------- Second section components finish ---------- */
 
 /* ---------- Third section components start ---------- */
+
+.chair-box {
+  padding: 24px;
+}
+
+h3 {
+  margin-bottom: 24px;
+}
+
+.chair-details {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.chair-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.chair-details li:last-child {
+  margin-bottom: 0;
+}
+
+.chair-iron {
+}
+
+.chair-price {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* ---------- Third section components finish ---------- */
 
 /* ---------- Footer components start ---------- */
+
+footer {
+  margin-bottom: 48px;
+}
+
 /* ---------- Footer components finish ---------- */
