@@ -19,7 +19,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 .btn:link,
@@ -56,7 +56,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -67,7 +67,7 @@ h1 {
   font-size: 44px;
   letter-spacing: -1px;
   line-height: 1.1;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   text-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -106,7 +106,7 @@ h2 {
   stroke: #087f5b;
   height: 32px;
   width: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .features-title {
@@ -142,10 +142,15 @@ h2 {
 }
 
 .testimonial-text {
+  color: #e6fcf5;
   font-size: 18px;
   font-style: italic;
   line-height: 1.7;
   margin-bottom: 24px;
+}
+
+.testimonial-author {
+  color: #c3fae8;
 }
 
 /* ---------- Second section components finish ---------- */
@@ -163,7 +168,7 @@ h2 {
 }
 
 .chair-box {
-  padding: 24px;
+  padding: 32px;
 }
 
 h3 {
@@ -173,14 +178,14 @@ h3 {
 
 .chair-details {
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .chair-details li {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
@@ -196,6 +201,7 @@ h3 {
 .chair-price {
   font-size: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
